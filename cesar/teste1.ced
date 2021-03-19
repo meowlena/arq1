@@ -2,6 +2,6 @@ CLR	R5  ;; R5 = 0
 SCC	C   ;; set C on
 ADC	R5  ;; R5 += Carry, so R5 = 1
 NOT	R5  ;; not R5, R5 = FFFE
-ROL	R5  ;; the actual carry goes to the less 
-        ;; significant bit of the R5 and the most significant bit of R5 now replaces carry
+ROL	R5  ;; the actual carry goes to the less significant bit of the R5
+            ;; of the R5 and the most significant bit of R5 now replaces carry
 HLT
