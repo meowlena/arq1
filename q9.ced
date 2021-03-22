@@ -1,0 +1,9 @@
+ORG 1024
+a: DW 10
+b: DW
+
+ORG 0
+MOV a R0
+ASL R0
+MOV R0 b
+HLT

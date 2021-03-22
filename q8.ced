@@ -1,0 +1,3 @@
+MOV #HF000,R0
+NOT R0
+HLT
